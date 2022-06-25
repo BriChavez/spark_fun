@@ -19,7 +19,7 @@ _Code review to showcase what i have learned regarding spark. Takes info from a 
 * _Clone the repository to where ever you want to run the program from_
 * _Start a python virtual environment_
 * _Pip install -r requirements.txt_
-* _Run the grab data code from the set_up file_
+* _Run the grab data code from the get_data file_
 * _Run the main.py or the main.ipynb to see the step by step process_
 
 ## Known Bugs
