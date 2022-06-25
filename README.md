@@ -1,6 +1,6 @@
-# _{Pyspark Pipeline}_
+# _Pyspark Pipeline_
 
-#### By _**{Bri Chavez}**_
+#### By _**Bri Chavez**_
 
 #### _{Code to showcase the skills i learned in Spark}_
 
@@ -11,7 +11,7 @@
 
 ## Description
 
-_{Code review to showcase what i have learned regarding spark. Takes info from a csv, cleans it up, asks it questions, and saves the dataframe as a parquet}_
+_Code review to showcase what i have learned regarding spark. Takes info from a csv, cleans it up, asks it questions, and saves the dataframe as a parquet_
 
 ## Setup/Installation Requirements
 
@@ -29,6 +29,6 @@ _{Code review to showcase what i have learned regarding spark. Takes info from a
 
 ## License
 
-_{This code is the sole property of on Bri Chavez. You're more than welcome to use it, tho. I dont mind. if you have questions or encounter issues, email me at brianachavez@gmail.com}_
+_This code is the sole property of on Bri Chavez. You're more than welcome to use it, tho. I dont mind. if you have questions or encounter issues, email me at brianachavez@gmail.com_
 
 Copyright (c) _June 26 2022_ _BriChavez_
