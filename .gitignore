@@ -7,6 +7,9 @@
 *.code-workspace
 # Local History for Visual Studio Code
 .history/
+
+# Folders
+data/
  
 # Common credential files
 **/credentials.json

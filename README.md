@@ -2,7 +2,7 @@
 
 #### By _**Bri Chavez**_
 
-#### _{Code to showcase the skills i learned in Spark}_
+#### _Code to showcase the skills i learned in Spark_
 
 ## Technologies Used
 
