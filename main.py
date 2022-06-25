@@ -8,10 +8,22 @@ from pyspark.sql import SparkSession
 # make an instance of a SparkSession called 'spark'
 spark = SparkSession.builder.master('local').getOrCreate()
 
+custom_schema = StructType([
+    StructField('index', IntegerType()),
+    StructField('artist_popularity', LongType()),
+    StructField('followers', LongType()),
+    StructField('genres', StringType()),
+    StructField('id', StringType()),
+    StructField('name', StringType()),
+    StructField('track_id', StringType()),
+    StructField('track_name_prev', StringType()),
+    StructField('type', StringType())])
+
+"""Extract Information"""
 spark_df = (spark.read.format("csv"
-                    ).options(header="true"
-                    ).schema("index int, artist_popularity int, followers int, genres string, id string, name string, track_id string, track_name_prev string, type string"
-                    ).load("data/spotify_artists.csv"))
+                              ).options(header="true"
+                                        ).schema(custom_schema
+                                                 ).load("data/spotify_artists.csv"))
 
 
 """Profile the Data:"""
