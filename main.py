@@ -1,8 +1,7 @@
 from pyspark.sql.functions import udf
 from pyspark.sql.functions import col
 from pyspark.sql.functions import regexp_replace
-from pyspark.sql.types import LongType, StringType, StructField, StructType, BooleanType, ArrayType, IntegerType, FloatType
-import os
+from pyspark.sql.types import LongType, StringType, StructField, StructType,IntegerType
 from pyspark.sql import SparkSession
 
 # make an instance of a SparkSession called 'spark'
