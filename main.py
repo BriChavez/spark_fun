@@ -63,6 +63,8 @@ pop_contest_df = pop_contest_df.withColumn('popularity_percent',
                                     ].cast('float'))
 
 """Extract Information"""
+# Show only the values in the DataFrame that have 'Queen' in the name.
+spark_df.select('*').filter(spark_df.name.contains('Queen')).show(8)
 # Group the data by artist popularity, and show the count for each group.
 spark_df.groupBy('artist_popularity').sum('artist_popularity').show(10)
 
